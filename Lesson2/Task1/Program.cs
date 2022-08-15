@@ -1,4 +1,8 @@
-﻿int Prompt(string message) {
+﻿// Напишите программу, которая принимает на вход трёхзначное число
+// и на выходе показывает вторую цифру этого числа.
+
+
+int Prompt(string message) {
     System.Console.WriteLine(message);
     string readValue = Console.ReadLine();
     int result = int.Parse(readValue);
